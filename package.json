@@ -1,0 +1,39 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "react starter",
+  "main": "index.js",
+  "author": "@simerlec",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html --out-dir public",
+    "dev": "parcel src/index.html",
+    "format": "prettier --config ../.prettierrc --write --list-different \"src/**/*.{js,css,html}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "param": "echo \"param one is:\" $1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.12.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
