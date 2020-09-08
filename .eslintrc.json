@@ -4,6 +4,7 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
     "prettier",
     "prettier/react"
   ],
@@ -12,7 +13,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
+  "plugins": ["react", "import"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2018,
