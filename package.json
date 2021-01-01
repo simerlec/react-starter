@@ -2,7 +2,6 @@
   "name": "react-starter",
   "version": "1.0.0",
   "description": "react starter",
-  "main": "index.js",
   "author": "@simerlec",
   "license": "MIT",
   "scripts": {
