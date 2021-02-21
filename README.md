@@ -1,4 +1,4 @@
-# 🚧 Note: This maintenance of this repo has been put on hold until Parcel 2 is stable! 🚧
+# 🚧 Note: The maintenance of this repo has been put on hold until Parcel 2 is stable! 🚧
 
 # Opinionated React Starter
 
